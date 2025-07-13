@@ -7,10 +7,16 @@ body {
   color: #f2f2f2;
 }
 
-/* Centered Logo */
+/* Logo Wrapper for Centering */
+.logo-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
+}
+
 .centered-logo {
-  display: block;
-  margin: 1rem auto 0 auto;
   height: 200px;
 }
 
@@ -23,6 +29,7 @@ body {
 
 .hero h1 {
   font-size: 2.4rem;
+  margin-top: 0;
   margin-bottom: 0.8rem;
   color: #ffffff;
 }
@@ -185,8 +192,6 @@ footer {
 
   .centered-logo {
     height: 140px;
-    display: block;
-    margin: 1rem auto 0 auto;
   }
 
   .services {
