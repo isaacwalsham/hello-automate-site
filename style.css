@@ -10,20 +10,20 @@ body {
 /* Centered Logo */
 .centered-logo {
   display: block;
-  margin-top: 0.5rem;
-  margin-bottom: 0rem;
+  margin: 1rem auto 0 auto;
   height: 200px;
 }
 
 /* Hero Section */
 .hero {
   background-color: #1e1e1e;
-  padding: 2rem 1rem;
+  padding: 3rem 1rem 2rem 1rem;
   text-align: center;
 }
 
 .hero h1 {
   font-size: 2.4rem;
+  margin-top: 2rem;
   margin-bottom: 0.8rem;
   color: #ffffff;
 }
@@ -66,7 +66,6 @@ p.center {
   font-size: 1rem;
 }
 
-/* CTA Button */
 .cta-button-large {
   background-color: #0a84ff;
   color: white;
@@ -77,7 +76,7 @@ p.center {
   font-weight: bold;
   display: block;
   width: fit-content;
-  margin: 1rem auto;
+  margin: 2rem auto 1rem auto;
   transition: background 0.3s ease;
   text-align: center;
 }
@@ -86,20 +85,16 @@ p.center {
   background-color: #0066cc;
 }
 
-/* Services Section */
 .services-wrapper {
   display: flex;
   justify-content: center;
-  padding: 0 1rem;
 }
 
 .services {
+  max-width: 1100px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 1.2rem;
-  width: 100%;
-  max-width: 1100px;
-  box-sizing: border-box;
   text-align: center;
 }
 
@@ -150,13 +145,6 @@ button:hover {
   background: #0066cc;
 }
 
-/* Tally Form Styling */
-.tally-embed-wrapper {
-  max-width: 700px;
-  margin: 2rem auto;
-  padding: 0 1rem;
-}
-
 /* Footer */
 footer {
   text-align: center;
@@ -171,8 +159,6 @@ footer {
   opacity: 0;
   transform: translateY(20px);
   transition: opacity 0.6s ease-out, transform 0.6s ease-out;
-  margin-top: 0rem;
-  padding-top: 0rem;
 }
 
 .fade-in.visible {
@@ -188,10 +174,11 @@ footer {
 .delay-6 { transition-delay: 0.6s; }
 .delay-7 { transition-delay: 0.7s; }
 
-/* Responsive Fixes */
+/* Responsive */
 @media (max-width: 768px) {
   .hero h1 {
     font-size: 1.8rem;
+    margin-top: 1rem;
   }
 
   .hero p {
@@ -199,7 +186,8 @@ footer {
   }
 
   .centered-logo {
-    height: 120px;
+    height: 100px;
+    margin: 1rem auto 0.5rem auto;
   }
 
   .services {
