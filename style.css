@@ -10,7 +10,8 @@ body {
 /* Centered Logo */
 .centered-logo {
   display: block;
-  margin: 0.5rem auto;
+  margin-top: 0.5rem;
+  margin-bottom: 0rem;
   height: 200px;
 }
 
@@ -170,6 +171,8 @@ footer {
   opacity: 0;
   transform: translateY(20px);
   transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  margin-top: 0rem;
+  padding-top: 0rem;
 }
 
 .fade-in.visible {
