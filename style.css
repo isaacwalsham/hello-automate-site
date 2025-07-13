@@ -7,18 +7,11 @@ body {
   color: #f2f2f2;
 }
 
-/* Logo Wrapper Centering */
-.logo-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 1rem;
-}
-
 /* Centered Logo */
 .centered-logo {
-  height: 140px;
-  margin: 0 auto;
+  display: block;
+  margin: 1rem auto 0 auto;
+  height: 200px;
 }
 
 /* Hero Section */
@@ -26,7 +19,6 @@ body {
   background-color: #1e1e1e;
   padding: 2rem 1rem;
   text-align: center;
-  margin-top: 1.5rem;
 }
 
 .hero h1 {
@@ -73,7 +65,6 @@ p.center {
   font-size: 1rem;
 }
 
-/* Call to Action Button */
 .cta-button-large {
   background-color: #0a84ff;
   color: white;
@@ -93,7 +84,6 @@ p.center {
   background-color: #0066cc;
 }
 
-/* Services Section */
 .services-wrapper {
   display: flex;
   justify-content: center;
@@ -194,10 +184,13 @@ footer {
   }
 
   .centered-logo {
-    height: 60px;
+    height: 140px;
+    display: block;
+    margin: 1rem auto 0 auto;
   }
 
   .services {
     grid-template-columns: 1fr;
+    padding: 0 1rem;
   }
 }
